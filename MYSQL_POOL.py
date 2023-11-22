@@ -13,6 +13,7 @@ Store the initialized class in a variable, Initialising the class needs:
         host (default localhost): Location where the database is hosted e.g. localhost or any specific IP
         logFile (default None): Absolute or relative text file location to write all errors raised
         errorWriter (default None): CAN BE IGNORED. A custom function that takes 3 string arguments to write and/or process logs
+Later call the `execute` method with all the necessary parameters
 """
 
 
